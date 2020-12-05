@@ -39,11 +39,11 @@ const Booking = () => {
                                 <div className="form-group row booking-date">
                                     <div className="col-6">
                                         <label>From</label>
-                                        <input className="form-control" type="date" defaultValue="2020-05-01" />
+                                        <input className="form-control" type="date" defaultValue="2020-10-01" />
                                     </div>
                                     <div className="col-6">
                                         <label>To</label>
-                                        <input className="form-control" type="date" defaultValue="2020-05-12" />
+                                        <input className="form-control" type="date" defaultValue="2020-11-12" />
                                     </div>
                                 </div>
                                 <button onClick={handleLoginRoute} type="submit" className="btn btn-block start-booking-btn p-3">Start Booking</button>
