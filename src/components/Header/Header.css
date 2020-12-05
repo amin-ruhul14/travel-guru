@@ -1,0 +1,41 @@
+.header {
+    font-size: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+}
+
+.logo {
+    width: 120px;
+    filter: brightness(100);
+}
+
+.search-bar {
+    position: relative;
+    width: 300px;
+}
+  
+.search-bar .search-box {
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.2)!important;
+}
+  
+.search-bar .search-box::placeholder {
+    color: #FFF;
+    font-weight: 500!important;
+}
+  
+.search-icon {
+    position: absolute;
+    color: #FFF;
+    margin-top:13px;
+    margin-left: 15px;
+    width: 24px;
+}
+
+.login-btn {
+    background: #F9A51A!important;
+    border: none!important;
+    width: 100px;
+    height: 40px;
+    color: #000000!important;
+    font-weight: 500!important;
+}
